@@ -88,6 +88,8 @@ def auth(token):
 	try:
 		req = httpx.post(authurl, json={"authorize":"true"},headers={"Authorization":token})
 		if req.status_code in [200, 201, 204]:
+			loc = req.json()["location"]
+			req2 = httpx.get(location)
 			return True
 		else:
 			return False
